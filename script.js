@@ -6,54 +6,54 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você descobre que tem a habilidade de viajar no tempo. Para onde você vai primeiro?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Vou para o futuro e ver como será a tecnologia.",
+                afirmacao: "Vocẽ está ansioso para ver as inovações tecnolõgicas e como elas impactarão a vida das pessoas. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Vou para o passado para ver como está a vida antigamente.",
+                afirmacao: "Vocẽ está ansioso para ver as inovações e ver como elas impactarão a vida das pessoas."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Vocẽ encontra um gênio eque pode conceder um desejo?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Peço sabedoria infinita.",
+                afirmacao: "Você valoriza o conhecimento e a sabedoria e acredita que a sabedoria pode resolver muitos problemas. "
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Peço Riqueza.",
+                afirmacao: "Você acredita que a riqueza pode proporcionar conforto e oportunidades."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Você ganha a chance de aprender qualquer habilidade instantaneamente. Qual você escolhe? ",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Habilidade de falar todos os idiomas.",
+                afirmacao: "Você quer se comunicar com qualquer pessoa no mundo sem dificuldade."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Habilidade de tocar qualquer intrumento musical.",
+                afirmacao: "Você tem uma paixão pela música e quer ser capaz de tocar qualquer instrumento."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você pode viver em qualquer época da hitória. Qual você escolhe?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Renascimento.",
+                afirmacao: "Você é fascinado pelas artes e a ciência e gostaria de viver numa época de grande inovação."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "futuro distante",
+                afirmacao: "Você quer ver como a sociedade e a tecnologia evoluíram ao longo dos séculos."
             }
         ]
     },
